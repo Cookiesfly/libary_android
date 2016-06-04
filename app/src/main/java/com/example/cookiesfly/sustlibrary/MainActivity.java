@@ -38,14 +38,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-        Button sky = (Button) findViewById(R.id.music);
-        //sky.setOnClickListener(new View.OnClickListener() {
-        //    @Override
-        //    public void onClick(View v) {
-        //        mp.pause();
-        //    }
-        //});
     }
 
     protected void onDestroy() {
